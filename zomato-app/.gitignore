@@ -1,2 +1,2 @@
-backend/.env
-frontend/.env
+zomato-app/backend/.env
+zomato-app/frontend/.envgit remote set-url origin https://github.com/your-username/your-new-repo.git
