@@ -28,7 +28,7 @@ const RestaurantPage: React.FC = () => {
 
             try {
                 const response = await getRestaurantById(id);
-                setRestaurant(response); // Ensure the API response matches the Restaurant type
+                setRestaurant(response);
             } catch (err) {
                 setError('Failed to fetch restaurant details');
             } finally {

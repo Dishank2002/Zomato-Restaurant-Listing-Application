@@ -14,7 +14,7 @@ export class RestaurantController {
         this.getRestaurants = this.getRestaurants.bind(this);
         this.searchRestaurantsByLocation = this.searchRestaurantsByLocation.bind(this);
         this.detectFoodAndCuisine = this.detectFoodAndCuisine.bind(this);
-        this.filterRestaurants = this.filterRestaurants.bind(this); // Ensure this method is bound
+        this.filterRestaurants = this.filterRestaurants.bind(this);
     
     }
 

@@ -25,8 +25,8 @@ const queryDB = async (query: string, params: any[]) => {
         const res = await pool.query(query, params);
         return res.rows;
     } catch (error) {
-        console.error('Database query error:', error); // Log the error
-        throw error; // Re-throw the error to be caught in the service
+        console.error('Database query error:', error);
+        throw error;
     }
 };
 

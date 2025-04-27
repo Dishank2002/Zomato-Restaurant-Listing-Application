@@ -38,7 +38,7 @@ export class RestaurantService {
             FROM restaurants
             WHERE ST_DWithin(location, ST_SetSRID(ST_MakePoint($1, $2), 4326)::geography, $3)
         `;
-        const params = [longitude, latitude, radius * 1000]; // Convert radius to meters
+        const params = [longitude, latitude, radius * 1000]; 
         return await queryDB(query, params);
     }
 
