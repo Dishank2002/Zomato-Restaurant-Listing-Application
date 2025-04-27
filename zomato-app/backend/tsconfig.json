@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true, // Ensure this is set to true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["ES2015", "DOM"],
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["src/**/*", "../database/scripts/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

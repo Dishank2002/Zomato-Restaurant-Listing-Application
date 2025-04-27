@@ -1,0 +1,21 @@
+.restaurant-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.restaurant-details h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.restaurant-details p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.rating {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}

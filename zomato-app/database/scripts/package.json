@@ -1,0 +1,12 @@
+{
+  "name": "zomato-app-scripts",
+  "version": "1.0.0",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "pg": "^8.15.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "@types/pg": "^8.11.14"
+  }
+}

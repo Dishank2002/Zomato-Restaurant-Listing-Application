@@ -1,0 +1,124 @@
+.home-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.restaurant-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+.restaurant-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.restaurant-card p {
+    margin: 5px 0;
+}
+
+.rating {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.image-upload-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.image-upload-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-upload-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.image-upload-container button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
