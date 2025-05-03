@@ -2,15 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getRestaurantById } from '../services/apiService';
 import RestaurantDetails from '../components/RestaurantDetails';
-
-interface Restaurant {
-    id: number;
-    name: string;
-    cuisine: string[];
-    location: string;
-    averageSpend: number;
-    description: string;
-}
+import { Restaurant } from '../components/RestaurantDetails';
 
 const RestaurantPage: React.FC = () => {
     const { id } = useParams<{ id: string }>();

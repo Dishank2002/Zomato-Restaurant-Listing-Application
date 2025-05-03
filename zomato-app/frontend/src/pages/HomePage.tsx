@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
             if (data.cuisine) {
                 const { restaurants, totalCount } = await getRestaurantsByCuisine(data.cuisine, 1, 20);
                 setRestaurants(restaurants);
-                setTotalPages(Math.ceil(totalCount / 20)); // Dynamically calculate total pages
+                setTotalPages(Math.ceil(totalCount / 20)); // Dynamically calculate total pages 
                 setIsFilteredByCuisine(true); // Enable cuisine filtering
                 setPage(1); // Reset to the first page
             }
